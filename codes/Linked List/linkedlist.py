@@ -103,10 +103,16 @@ class LinkedList:
         return output
 
     def front(self):
-        # Get the first item in the list
-        return self.head.value
-    
+        # Get the first item in the list. If list is empty, raise error
+        if self.head:
+            return self.head.value
+        else:
+            raise Exception("List is empty.")   
+
     def back(self):
+        # If list is empty, raise error
+        if not self.head:
+            raise Exception("List is empty.")
         # Go to the tail of the list
         current = self.head
         while current.next:
