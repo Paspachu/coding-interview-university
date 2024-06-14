@@ -645,22 +645,22 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [X] value_n_from_end(n) - returns the value of the node at the nth position from the end of the list
         - [X] reverse() - reverses the list
         - [X] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
-        - [ ] [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
-        - [ ] size() - returns the number of data elements in the list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove the front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get the value of the front item
-        - [ ] back() - get the value of the end item
-        - [ ] insert(index, value) - insert value at index, so the current item at that index is pointed to by the new item at the index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at the nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
+    - [X] Doubly-linked List
+        - [X] [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
+        - [X] size() - returns the number of data elements in the list
+        - [X] empty() - bool returns true if empty
+        - [X] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [X] push_front(value) - adds an item to the front of the list
+        - [X] pop_front() - remove the front item and return its value
+        - [X] push_back(value) - adds an item at the end
+        - [X] pop_back() - removes end item and returns its value
+        - [X] front() - get the value of the front item
+        - [X] back() - get the value of the end item
+        - [X] insert(index, value) - insert value at index, so the current item at that index is pointed to by the new item at the index
+        - [X] erase(index) - removes node at given index
+        - [X] value_n_from_end(n) - returns the value of the node at the nth position from the end of the list
+        - [X] reverse() - reverses the list
+        - [X] remove_value(value) - removes the first item in the list with this value
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
