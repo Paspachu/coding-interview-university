@@ -663,9 +663,15 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [X] remove_value(value) - removes the first item in the list with this value
 
 - ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [X] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    - [ ] Will not implement. Implementing with the array is trivial
+    - [X] Will not implement. Implementing with the array is trivial
+    - [ ] Leetcode problems:
+        - [X] Problem 20: Valid Parentheses
+        - [X] Problem 71: Simplify Path
+        - [X] Problem 155: Min Stack
+        - [ ] Problem 150: Evaluate Reverse Polish Notation
+        - [ ] Problem 224: Basic Calculator
 
 - ### Queue
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
