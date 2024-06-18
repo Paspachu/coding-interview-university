@@ -666,6 +666,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [X] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
     - [X] Will not implement. Implementing with the array is trivial
+    - [X] Just remember that a stack if LIFO (Last-In First-Out)
     - [ ] Leetcode problems:
         - [X] Problem 20: Valid Parentheses
         - [X] Problem 71: Simplify Path
