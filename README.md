@@ -701,12 +701,13 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
         - [ ] [PyCon 2017: The Dictionary Even Mightier (video)](https://www.youtube.com/watch?v=66P5FMkWoVU)
+        - [X] [Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer](https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLUzvZMEoR0KvEthotRQR3qoJ5FJxkhvaP&ab_channel=freeCodeCamp.org): Start from 3:59:26
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
         - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
 
     - [ ] Online Courses:
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        - [X] [Core Hash Tables (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
         - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/4)
         - [ ] [Phone Book Problem (video)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
         - [ ] distributed hash tables:
@@ -714,11 +715,11 @@ if you can identify the runtime complexity of different algorithms. It's a super
             - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
     - [ ] Implement with array using linear probing
-        - hash(k, m) - m is the size of the hash table
-        - add(key, value) - if the key already exists, update value
-        - exists(key)
-        - get(key)
-        - remove(key)
+        - [ ] hash_table(m) - m is the size of the hash table
+        - [ ] add(key, value) - if the key already exists, update value
+        - [ ] exists(key)
+        - [ ] get(key)
+        - [ ] remove(key)
 
 ## More Knowledge
 
