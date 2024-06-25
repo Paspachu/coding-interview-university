@@ -716,6 +716,8 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
     - [ ] Implement with array using linear probing
         - [ ] hash_table(m) - m is the size of the hash table
+        - [ ] empty()
+        - [ ] full()
         - [ ] add(key, value) - if the key already exists, update value
         - [ ] exists(key)
         - [ ] get(key)
