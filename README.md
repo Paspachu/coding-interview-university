@@ -888,12 +888,12 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - [ ] Merge sort code:
     - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
-    - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
+    - [X] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
 - [ ] Quick sort code:
     - [ ] [Implementation (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
     - [ ] [Implementation (C)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
-    - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+    - [X] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
 - [ ] [[Review] Sorting (playlist) in 18 minutes](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
     - [ ] [Quick sort in 4 minutes (video)](https://youtu.be/Hoixgm4-P4M)
@@ -904,9 +904,11 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [Insertion sort in 2 minutes (video)](https://youtu.be/JU767SDMDvA)
 
 - [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst-case
+    - [X] Bubble sort: O(n^2) average and worst-case
+    - [X] Selection sort: O(n^2) average and worst-case
+    - [X] Insertion sort: O(n^2) average and worst-case
+    - [X] Merge sort: O(n log n) average and worst case
+    - [X] Quick sort O(n log n) average case
     - For heapsort, see Heap data structure above
 
 - [ ] Not required, but I recommended them:
