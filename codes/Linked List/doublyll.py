@@ -253,97 +253,99 @@ class DoublyLL:
                 break
             current = current.next
 
+def main():
+    # For test, initialize nodes with values corresponding the digits of pi
+    n1 = Node(3)
+    n2 = Node(1)
+    n3 = Node(4)
+    n4 = Node(1)
+    n5 = Node(5)
 
+    # Link the nodes
+    n1.next = n2
+    n2.prev = n1
+    n2.next = n3
+    n3.prev = n2
+    n3.next = n4
+    n4.prev = n3
+    n4.next = n5
+    n5.prev = n4
 
-# For test, initialize nodes with values corresponding the digits of pi
-n1 = Node(3)
-n2 = Node(1)
-n3 = Node(4)
-n4 = Node(1)
-n5 = Node(5)
+    # Create sample doubly linked list
+    l1 = DoublyLL()
+    l1.head = n1
+    l1.tail = n5
 
-# Link the nodes
-n1.next = n2
-n2.prev = n1
-n2.next = n3
-n3.prev = n2
-n3.next = n4
-n4.prev = n3
-n4.next = n5
-n5.prev = n4
+    # Print the entire list and the size of the list
+    l1.print_list("l1")
+    print("The size of l1 is: {}".format(l1.size()))
 
-# Create sample doubly linked list
-l1 = DoublyLL()
-l1.head = n1
-l1.tail = n5
+    # Check if the list is empty
+    print("Is l1 empty?: {}".format(l1.empty()))
+    l2 = DoublyLL()
+    print("Is l2 empty?: {}".format(l2.empty()))
 
-# Print the entire list and the size of the list
-l1.print_list("l1")
-print("The size of l1 is: {}".format(l1.size()))
+    # Test for value at an index
+    print("The value at index 2 in l1 is: {}".format(l1.value_at(2)))
+    print("The value at index 4 in l1 is: {}".format(l1.value_at(4)))
 
-# Check if the list is empty
-print("Is l1 empty?: {}".format(l1.empty()))
-l2 = DoublyLL()
-print("Is l2 empty?: {}".format(l2.empty()))
+    # Test for push front
+    l1.push_front(1)
+    l1.print_list("l1")
+    l2.push_front(9)
+    l2.push_front(8)
+    l2.print_list("l2")
 
-# Test for value at an index
-print("The value at index 2 in l1 is: {}".format(l1.value_at(2)))
-print("The value at index 4 in l1 is: {}".format(l1.value_at(4)))
+    # Test for pop front
+    print("The first item poped is: {}".format(l1.pop_front()))
+    l1.print_list("l1")
+    print("The first item poped is: {}".format(l2.pop_front()))
+    l2.print_list("l2")
+    print("The first item poped is: {}".format(l2.pop_front()))
+    l2.print_list("l2")
 
-# Test for push front
-l1.push_front(1)
-l1.print_list("l1")
-l2.push_front(9)
-l2.push_front(8)
-l2.print_list("l2")
+    # Test for push back
+    l1.push_back(9)
+    l1.print_list("l1")
+    l2.push_back(9)
+    l2.push_back(8)
+    l2.print_list("l2")
 
-# Test for pop front
-print("The first item poped is: {}".format(l1.pop_front()))
-l1.print_list("l1")
-print("The first item poped is: {}".format(l2.pop_front()))
-l2.print_list("l2")
-print("The first item poped is: {}".format(l2.pop_front()))
-l2.print_list("l2")
+    # Test for pop back
+    print("The last item poped is: {}".format(l1.pop_back()))
+    l1.print_list("l1")
+    print("The last item poped is: {}".format(l2.pop_back()))
+    l2.print_list("l2")
+    print("The last item poped is: {}".format(l2.pop_back()))
+    l2.print_list("l2")
 
-# Test for push back
-l1.push_back(9)
-l1.print_list("l1")
-l2.push_back(9)
-l2.push_back(8)
-l2.print_list("l2")
+    # Test for front and back
+    print("The first item in l1 is: {}".format(l1.front()))
+    print("The last item in l1 is: {}".format(l1.back()))
+    # print("The first item in l2 is: {}".format(l2.front()))
+    # print("The last item in l2 is: {}".format(l2.back()))
 
-# Test for pop back
-print("The last item poped is: {}".format(l1.pop_back()))
-l1.print_list("l1")
-print("The last item poped is: {}".format(l2.pop_back()))
-l2.print_list("l2")
-print("The last item poped is: {}".format(l2.pop_back()))
-l2.print_list("l2")
+    # Test for insert
+    l1.insert(2, 9)
+    l1.print_list("l1")
 
-# Test for front and back
-print("The first item in l1 is: {}".format(l1.front()))
-print("The last item in l1 is: {}".format(l1.back()))
-# print("The first item in l2 is: {}".format(l2.front()))
-# print("The last item in l2 is: {}".format(l2.back()))
+    # Test for erase
+    l1.erase(2)
+    l1.print_list("l1")
 
-# Test for insert
-l1.insert(2, 9)
-l1.print_list("l1")
+    # Test for value n from end
+    print("The 3rd value from the end of list l1 is: {}".format(l1.value_n_from_end(3)))
 
-# Test for erase
-l1.erase(2)
-l1.print_list("l1")
+    # Test for reverse
+    l1.print_list("l1")
+    l1.reverse()
+    l1.print_list("l1")
+    l1.reverse()
+    l1.print_list("l1")
 
-# Test for value n from end
-print("The 3rd value from the end of list l1 is: {}".format(l1.value_n_from_end(3)))
+    # Test for remove_value
+    l1.remove_value(1)
+    l1.print_list("l1")
 
-# Test for reverse
-l1.print_list("l1")
-l1.reverse()
-l1.print_list("l1")
-l1.reverse()
-l1.print_list("l1")
-
-# Test for remove_value
-l1.remove_value(1)
-l1.print_list("l1")
+if __name__ == '__main__':
+    main()
